@@ -9,7 +9,7 @@ body{
     background-position:center;
     background-size:cover;
     height:100%;
-    border: 2px solid black;
+    margin-left: 50px;
     overflow:scroll;
 
 }
@@ -17,11 +17,16 @@ body{
     width:100%;
     height:100px;
     display: flex;
-    border:2px solid orange;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 2px solid orange;
+
 
 }
 .logo{
     width:100px;
+    background: transparent;
+    
 }
 .logo img{
     height:100px;
@@ -147,14 +152,13 @@ li a, .dropbtn {
 
 .form{
     width:250px;
-    height: 700px;
+    height: 600px;
     background:linear-gradient(to top, rgba(0,0,0,0)50%, rgba(0,0,0,0.8)50%);
     position:absolute;
-    top:-80px;
-    left:1020px;
+    left:70%;
     border-radius:10px;
     padding:25px;
-    margin-top: 200px;
+    
 }
 
 .form h2{
@@ -221,6 +225,7 @@ li a, .dropbtn {
     font-weight: bold;
     padding-top:20px;
     text-align:center;
+    color: #ffffff;
 }
 
 .form .link a{
@@ -248,7 +253,7 @@ height:100%;
     margin-top:50px;
     width:500px;
     font-size: 20px;
-    height:770px;
+    height:auto;
 
 }
 
@@ -306,92 +311,48 @@ input[type=number], select {
   }
 .main{
     width:100%;
-    Height:100%;
-    border:2px solid orange;
-}
-
-
-.pic {
-    display: flex;
-    margin-top:10px;
-    
-}
-
-.picd img{
-    height:200px;
-    width:200px;
-    border: 1px solid #ddd;
-    border-radius: 4px
-    
-}
-.picd img:hover{
-    height:300px;
-    width:300px;
+    height:auto;
 
 }
-.pica{
-    padding-left:10px;
-    padding-right:10px;
 
+.promotions{
+    text-align: left;
+    text-decoration: none;
+    padding-left: 5%;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
-.pica img{
-    height:200px;
-    width:200px;
-    border: 1px solid #ddd;
-    border-radius: 4px
-    
+.promotions h1{
+    padding-bottom: 30px;
 }
-.pica img:hover{
-    height:300px;
-    width:300px;
+.promotions li{
+    padding-left: 50px;
+    display: inline-block;
+    transition: width 1s ;
+}
 
+.promotions img{
+    height: 200px;
+    width: 200px;
+    display: inline-block;
 }
-.picb img:hover{
-    height:300px;
-    width:300px;
 
+.promotions li:hover img{
+    position: relative;
+    height: 300px;
+    width: 300px;
 }
-.picb{
-    padding-left:10px;
-    padding-right:10px;
-}
-.picb img{
-    height:200px;
-    width:200px;
-    border: 1px solid #ddd;
-    border-radius: 4px
-    
-}
-.picc{
-    padding-left:10px;
-    padding-right:10px;
-}
-.picc img{
-    height:200px;
-    width:200px;
-    border: 1px solid #ddd;
-    border-radius: 4px
-    
-}
-.picc img:hover{
-    height:300px;
-    width:300px;
-
-}
-.pic .text{
-    width:200px;
+.text{
     background-color: white;
-    text-align:center;
-}
-.pic .text:hover{
-    width:300px;
-    font-size:30px;
+    color: #000000;
+    text-align: center;
 }
 
 .content{
-    width:1200px;
+    width:auto;
     height:auto;
-    margin:auto;
+    padding-left: 5%;
+   
     color:white;
     position: relative;
 }
@@ -407,7 +368,7 @@ input[type=number], select {
     font-family: 'Times New Roman';
     font-size:50px;
     padding-left:10px;
-    margin-top:9%;
+    margin-top:5%;
     letter-spacing: 2px;
 }
 .content .cn{
@@ -440,11 +401,21 @@ input[type=number], select {
 }
 
 .saksham{
+    padding-top: 20px;
     height:150px;
     width:100%;
-    border:2px solid orange;
+    border-top:2px solid orange;
     text-align: center;
 }
 .tip{
     margin-top: 20px;;
+}
+.order{
+    text-align: left;
+    padding-left: 20px;
+}
+.order li{
+    text-decoration: none;
+    display: inline-block;
+    padding-left: 20px;
 }
