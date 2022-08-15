@@ -4,7 +4,7 @@
 
 }
 body{
-    width:100%;
+    width:inherit;
     background:linear-gradient(to right, #9c27b0, #8ecdff);
     background-position:center;
     background-size:cover;
@@ -196,7 +196,7 @@ li a, .dropbtn {
     font-family: Arial;
 
 }
-.btnn{
+.submit{
     width:240px;
     height:40px;
     background:orange;
@@ -366,7 +366,7 @@ input[type=number], select {
 
 .content h1{
     font-family: 'Times New Roman';
-    font-size:50px;
+    font-size:40px;
     padding-left:10px;
     margin-top:5%;
     letter-spacing: 2px;
